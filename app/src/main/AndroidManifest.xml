@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Layout"
+        tools:targetApi="31">
+        <activity
+            android:name=".Kalkulator"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" />
+        <activity
+            android:name=".Main"
+            android:exported="true" />
+        <activity
+            android:name=".ListView"
+            android:exported="true" />
+        <activity
+            android:name=".NegaraAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".RelativeLayout"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayout"
+            android:exported="true" />
+    </application>
+
+</manifest>
